@@ -6,11 +6,11 @@ import UserList from './pages/UserList';
 const App = () => {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/coup-de-coeur" element={<UserList/>}/>
-      <Route path="*" element={<Home/>}/>
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/coup-de-coeur" element={<UserList />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
     </BrowserRouter>
   );
 };
